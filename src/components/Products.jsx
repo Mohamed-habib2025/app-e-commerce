@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from '../rtk/slices/Cart-slice';
 import React, { useState, useEffect } from 'react';
 import CustomerFeedback from './CustomerFeedback';
-import { Card, Button } from "flowbite-react";
+import { Card } from "flowbite-react";
 import DiscountBanner from './DiscountBanner';
 import AppNavbar from "./AppNavbar"
 import Footer from './Footer';
@@ -30,7 +30,7 @@ function Products() {
   const filteredProducts = displayedProducts.filter((product) =>
     product.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
-
+  
   return (
     <>
       <AppNavbar />

@@ -7,8 +7,6 @@ import Contact from "./components/Contact"
 import ProductDetails from "./components/ProductDetails"
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Login from "./components/Login"
-
 
 function App() {
 

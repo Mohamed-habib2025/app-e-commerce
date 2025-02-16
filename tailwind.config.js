@@ -10,17 +10,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        "neutralSilver":"#F5F7FA",
-        "neutralDGrey":"#4D4D4D",
-        "brandPrimary":"#4CAF4F",
-        "neutralGrey":"#717171",
+      colors: {
+
       },
-      screens:{
-        'sm':'540px',
-        'md':'720px',
-        'lg':'960px',
-        'xl':'1140px',
+      screens: {
+        'sm': '540px',
+        'md': '720px',
+        'lg': '960px',
+        'xl': '1140px',
         '2xl': '1320px'
       }
     },

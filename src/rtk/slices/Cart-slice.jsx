@@ -35,6 +35,7 @@ export const cartSlice = createSlice({
           timer: 1000
         });
       }
+      
       saveCartToLocalStorage(state);
     },
     morequantity: (state, action) => {
